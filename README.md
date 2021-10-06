@@ -10,3 +10,5 @@ Slightly modified Low-Pass Filter, introducing upsampling & downsampling for bet
 - The new input image must be in the same directory as of **LPF.m** file.
 - By default, the script takes "actual.jpg" for filtering, then saves it as "compressed.jpg".
 - Without any filtering, MATLAB uses its own compression. So, don't be overwhelmed here. Further filtering makes the input image more compressed.
+
+N.B. *Use image having dimension of power of 2*
